@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+/* common */
+
+.box-left {
+  float: left;
+}
+
+.box-right {
+  float: right;
+}
+
+p {
+  display: inline;
+  line-height: 1.5em;
+}
+
+body {
+  background-color: #dcf5f3;
+}
+
+/* 非表示情報用 */
+.sr-only {
+	display: none;
+}
+
+#main-wapper {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  width: 940px;
+}
+
+/* header */
+
+#header .site-logo {
+  margin: 16px 0;
+}
+
+#header .key-image {
+  padding-bottom: 16px;
+}
+
+#header nav a {
+  display: block;
+  float: left;
+}
+
+/* aside */
+
+#aside {
+  display: block;
+  width: 300px;
+}
+
+#aside .side-title {
+  margin-bottom: 20px;
+}
+
+#aside li {
+  margin-bottom: 10px;
+}
+
+/* main */
+
+#main {
+  display: block;
+  width: 620px;
+  min-height: 740px;
+}
+
+#main li {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+#main li h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 20px 0 8px;
+}
+
+#main li img {
+  padding-right: 18px;
+}

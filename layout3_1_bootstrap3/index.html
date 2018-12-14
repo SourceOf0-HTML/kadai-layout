@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+  
+  <head>
+    <meta charset="UTF-8">
+    <title>タイトル</title>
+    
+    <!-- IEはそのバージョンの標準モードでレンダリングする -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- 表示領域は横幅がデバイスと同じ横幅、表示倍率は1倍 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- リセット CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="vender/bootstrap/css/bootstrap.min.css">
+
+    <!-- 自作 CSS -->
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  
+  <body>
+    <div class="container">
+      <h2 class="sr-only">Top page</h2>
+      
+      <header id="header">
+        <nav class="navbar navbar-default navbar-static-top">
+          <h3 class="sr-only">Main navigation</h3>
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <!-- 横幅が狭い時に出るハンバーガーボタン -->
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+          
+              <!-- ホームへ戻るリンク。ブランドロゴなどを置く。 -->
+              <a class="navbar-brand" href="#"><img src="images/logo.png" alt="site-logo"></a>
+            </div>
+          
+            <!-- メニュー項目 -->
+            <div id="navbar" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="#"><img src="images/navi_01.png" alt="navi_01"></a></li>
+                <li><a href="#"><img src="images/navi_02.png" alt="navi_02"></a></li>
+                <li><a href="#"><img src="images/navi_03.png" alt="navi_03"></a></li>
+                <li><a href="#"><img src="images/navi_04.png" alt="navi_04"></a></li>
+                <li><a href="#"><img src="images/navi_05.png" alt="navi_05"></a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+        <div id="key-image">
+          <img src="images/key_image.png" alt="key-image">
+        </div>
+      </header>
+      
+      <div class="row">
+        
+        <main id="main" class="col-md-6 col-md-push-3">
+          
+          <article>
+            
+            <h1><img src="images/main_title.png" alt="main_title"></h1>
+            
+            <ul class="row">
+              <li class="col-md-6">
+                <h3><strong>画像タイトル</strong></h3>
+                <div class="clearfix">
+                  <img src="images/sample_img.png" alt="sample_img" class="pull-left">
+                  <p>
+                    ここに画像の紹介文が入ります。ここに画像の紹介文が入ります。ここに画像の紹介文が入ります。ここに画像の紹介文が入ります。ここに画像の紹介文が入ります。ここに画像の紹介文が入ります。ここに画像の紹介文が入ります。ここに画像の紹介文が入ります。ここに画像の紹介文が入ります。ここに画像の紹介文が入ります。ここに画像の紹介文が入ります。ここに画像の紹介文が入ります。
+                  </p>
+                </div>
+              </li>
+              <li class="col-md-6">
+                <h3><strong>画像タイトル</strong></h3>
+                <div class="clearfix">
+                  <img src="images/sample_img.png" alt="sample_img" class="pull-left">
+                  <p>
+                    ここに画像の紹介文が入ります。ここに画像の紹介文が入ります。
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <ul class="row">
+              <li class="col-md-6">
+                <h3><strong>画像タイトル</strong></h3>
+                <div class="clearfix">
+                  <img src="images/sample_img.png" alt="sample_img" class="pull-left">
+                  <p>
+                    ここに画像の紹介文が入ります。ここに画像の紹介文が入ります。
+                  </p>
+                </div>
+              </li>
+              <li class="col-md-6">
+                <h3><strong>画像タイトル</strong></h3>
+                <div class="clearfix">
+                  <img src="images/sample_img.png" alt="sample_img" class="pull-left">
+                  <p>
+                    ここに画像の紹介文が入ります。ここに画像の紹介文が入ります。
+                  </p>
+                </div>
+              </li>
+            </ul>
+            
+          </article>
+          
+        </main>
+  
+        <aside id="sub-nav-aside" class="col-md-3 col-md-pull-6">
+          <h2>
+            <img src="images/side_title.png" alt="side-title">
+          </h2>
+          <nav>
+            <h3 class="sr-only">Sub navigation</h3>
+            <ul>
+              <li><a href="#"><img src="images/s_navi_01.png" alt="sub_navi_01"></a></li>
+              <li><a href="#"><img src="images/s_navi_02.png" alt="sub_navi_02"></a></li>
+              <li><a href="#"><img src="images/s_navi_03.png" alt="sub_navi_03"></a></li>
+              <li><a href="#"><img src="images/s_navi_04.png" alt="sub_navi_04"></a></li>
+              <li><a href="#"><img src="images/s_navi_05.png" alt="sub_navi_05"></a></li>
+            </ul>
+          </nav>
+        </aside>
+        
+        <aside id="main_sub-aside" class="col-md-3">
+          <h2>
+            <img src="images/main_sub_title.png" alt="main_sub_title">
+          </h2>
+          <nav>
+            <h3 class="sr-only">Main sub</h3>
+            <ul>
+              <li><a href="#"><img src="images/banner_01.png" alt="banner_01"></a></li>
+              <li><a href="#"><img src="images/banner_02.png" alt="banner_02"></a></li>
+              <li><a href="#"><img src="images/banner_03.png" alt="banner_03"></a></li>
+            </ul>
+          </nav>
+        </aside>
+        
+      </div><!-- .row -->
+      
+      <footer id="footer">
+        <img src="images/footer.png" alt="footer">
+      </footer>
+    
+    </div><!-- .container -->
+    
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="vender/bootstrap/js/bootstrap.min.js"></script>
+    
+  </body>
+  
+</html>

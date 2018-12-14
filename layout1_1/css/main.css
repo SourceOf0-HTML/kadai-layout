@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+/* common */
+
+.box-left {
+  float: left;
+}
+
+p {
+  display: inline;
+  line-height: 1.5em;
+}
+
+body {
+  background-color: #dcf5f3;
+}
+
+/* 非表示情報用 */
+.sr-only {
+	display: none;
+}
+
+#main-wapper {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  width: 940px;
+}
+
+/* header */
+
+#header .site-logo {
+  margin: 16px 0;
+}
+
+#header .key-image {
+  padding-bottom: 16px;
+}
+
+#header nav a {
+  display: block;
+  float: left;
+}
+
+/* main */
+
+#main {
+  margin-bottom: 40px;
+}
+
+#main>p,
+#main article {
+  display: block;
+  margin: 16px 16px 20px;
+}
+
+#main article h2 {
+  font-size: 1.6em;
+  margin: 16px 0 8px;
+}
+
+#main article img {
+  padding-right: 18px;
+}

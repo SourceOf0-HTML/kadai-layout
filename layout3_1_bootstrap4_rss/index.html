@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+  
+  <head>
+    <meta charset="UTF-8">
+    <title>タイトル</title>
+    
+    <!-- IEはそのバージョンの標準モードでレンダリングする -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- 表示領域は横幅がデバイスと同じ横幅、表示倍率は1倍 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- リセット CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <!-- 自作 CSS -->
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  
+  <body>
+    <div class="container">
+      
+      <header id="header">
+        <!-- ホームへ戻るリンク。ブランドロゴなどを置く。 -->
+        <a class="navbar-brand" href="#"><img src="images/logo.png" alt="site-logo"></a>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <!-- 横幅が狭い時に出るハンバーガーボタン -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>          
+          
+          <!-- メニュー項目 -->
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+              <li><span class="sr-only">main-nav</span></li>
+              <li><a href="#"><img src="images/navi_01.png" alt="navi_01"></a></li>
+              <li><a href="#"><img src="images/navi_02.png" alt="navi_02"></a></li>
+              <li><a href="#"><img src="images/navi_03.png" alt="navi_03"></a></li>
+              <li><a href="#"><img src="images/navi_04.png" alt="navi_04"></a></li>
+              <li><a href="#"><img src="images/navi_05.png" alt="navi_05"></a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </nav>
+        <div id="key-image">
+          <img src="images/key_image.png" alt="key-image">
+        </div>
+      </header>
+      
+      <div class="row">
+        
+        <main id="main" class="col-lg-6 order-lg-2">
+          
+          <article>
+            
+            <h1><img src="images/main_title.png" alt="main_title"></h1>
+            
+            <ul class="row">
+              <!-- 要素はjsで挿入 -->
+            </ul>
+            
+          </article>
+          
+        </main>
+  
+        <aside id="sub-nav-aside" class="col-lg-3 order-lg-1">
+          <h2>
+            <img src="images/side_title.png" alt="side-title">
+          </h2>
+          <nav>
+            <h3 class="sr-only">sub-nav</h3>
+            <ul>
+              <li><a href="#"><img src="images/s_navi_01.png" alt="sub_navi_01"></a></li>
+              <li><a href="#"><img src="images/s_navi_02.png" alt="sub_navi_02"></a></li>
+              <li><a href="#"><img src="images/s_navi_03.png" alt="sub_navi_03"></a></li>
+              <li><a href="#"><img src="images/s_navi_04.png" alt="sub_navi_04"></a></li>
+              <li><a href="#"><img src="images/s_navi_05.png" alt="sub_navi_05"></a></li>
+            </ul>
+          </nav>
+        </aside>
+        
+        <aside id="main_sub-aside" class="col-lg-3 order-lg-3">
+          <h2>
+            <img src="images/main_sub_title.png" alt="main_sub_title">
+          </h2>
+          <nav>
+            <h3 class="sr-only">main_sub</h3>
+            <ul>
+              <li><a href="#"><img src="images/banner_01.png" alt="banner_01"></a></li>
+              <li><a href="#"><img src="images/banner_02.png" alt="banner_02"></a></li>
+              <li><a href="#"><img src="images/banner_03.png" alt="banner_03"></a></li>
+            </ul>
+          </nav>
+        </aside>
+        
+      </div><!-- .row -->
+      
+      <footer id="footer">
+        <img src="images/footer.png" alt="footer">
+      </footer>
+    
+    </div><!-- .container -->
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script src="js/jquery.xdomainajax.js"></script>
+    <script src="js/main.js"></script>
+    
+  </body>
+  
+</html>

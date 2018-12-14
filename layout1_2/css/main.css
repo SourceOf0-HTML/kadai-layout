@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+/* common */
+
+.text-left {
+  float: left;
+}
+
+p {
+  display: inline;
+  line-height: 1.5em;
+}
+
+body {
+  background-color: #dcf5f3;
+}
+
+/* 非表示情報用 */
+.sr-only {
+	display: none;
+}
+
+#main-wapper {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  width: 940px;
+}
+
+/* header */
+
+#header .site-logo {
+  margin: 16px 0;
+}
+
+#header .key-image {
+  padding-bottom: 16px;
+}
+
+#header nav a {
+  display: block;
+  float: left;
+}
+
+/* main */
+
+#main article p {
+  display: block;
+  margin: 16px 16px 10px;
+}
+
+#main article .box-left {
+  margin-right: 15px;
+}
+
+#main ul {
+  margin: 8px 16px 20px;
+}
+
+#main li {
+  display: inline-block;
+  width: 440px;
+}
+
+#main li h2 {
+  font-size: 1.6em;
+  margin: 16px 0;
+}
+
+#main li p {
+  margin: 16px 8px;
+}
+
+#main li img {
+  padding-right: 18px;
+}
